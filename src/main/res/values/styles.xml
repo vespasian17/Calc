@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/btnStyle</item>
+    </style>
+
+    <style name="btnStyle" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!--&lt;!&ndash; active thumb & track color (30% transparency) &ndash;&gt;
+        <item name="colorControlActivated">@color/indigo</item>
+        &lt;!&ndash; inactive thumb color &ndash;&gt;
+        <item name="colorSwitchThumbNormal">@android:color/darker_gray</item>
+        &lt;!&ndash; inactive track color (30% transparency) &ndash;&gt;
+        <item name="android:colorForeground">@color/gray</item>-->
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/indigo</item>
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@android:color/holo_red_light</item>
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@android:color/holo_red_light</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">ProgramCalc</string>
+    <string-array name="bases">
+        <item>BIN</item>
+        <item>OCT</item>
+        <item>DEC</item>
+        <item>HEX</item>
+    </string-array>
+
+</resources>
